@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Villa Mišan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <style>
+      .right {
+        justify-content: right;
+      }
+      .calendar {
+        height: 400px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 3px;
+      }
+      .date {
+        background-color: lightblue;
+        display: flex;
+        font-size: 1.3em;
+        border-radius: 10;
+      }
+      .next {
+        background-color: lightcoral;
+        display: flex;
+        font-size: 1.3em;
+        border-radius: 10;
+      }
+      .day {
+        background-color: lightgreen;
+        display: flex;
+        font-size: 1.3em;
+        border-radius: 10;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a
+          href="Mišan-apartman.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <img src="logo.svg" alt="logo" width="50" />
+          <svg class="bi me-2" width="40" height="32"></svg>
+          <span class="fs-4">Villa Mišan *****</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse right" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Mišan-apartman.html">Početna</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="kalendar.html"
+                >Kalendar</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cjenik.html">Cjenik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lokacija.html">Lokacija</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="btn-group" role="group">
+            <button
+              type="button"
+              class="btn btn-primary dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Svibanj 2023
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="siječanj.html">Siječanj</a>
+              </li>
+              <li><a class="dropdown-item" href="ožujak.html">Veljača</a></li>
+              <li><a class="dropdown-item" href="travanj.html">Ožujak</a></li>
+              <li><a class="dropdown-item" href="svibanj.html">Travanj</a></li>
+              <li><a class="dropdown-item" href="lipanj.html">Lipanj</a></li>
+              <li><a class="dropdown-item" href="srpanj.html">Srpanj</a></li>
+              <li><a class="dropdown-item" href="kolovoz.html">Kolovoz</a></li>
+              <li><a class="dropdown-item" href="rujan.html">Rujan</a></li>
+              <li>
+                <a class="dropdown-item" href="listopad.html">Listopad</a>
+              </li>
+              <li><a class="dropdown-item" href="studeni.html">Studeni</a></li>
+              <li>
+                <a class="dropdown-item" href="prosinac.html">Prosinac</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+          <div class="calendar">
+            <div class="day">Pon</div>
+            <div class="day">Uto</div>
+            <div class="day">Sri</div>
+            <div class="day">Čet</div>
+            <div class="day">Pet</div>
+            <div class="day">Sub</div>
+            <div class="day">Ned</div>
+            <div class="date">1</div>
+            <div class="date">2</div>
+            <div class="date">3</div>
+            <div class="date">4</div>
+            <div class="date">5</div>
+            <div class="date">6</div>
+            <div class="date">7</div>
+            <div class="date">8</div>
+            <div class="date">9</div>
+            <div class="date">10</div>
+            <div class="date">11</div>
+            <div class="date">12</div>
+            <div class="date">13</div>
+            <div class="date">14</div>
+            <div class="date">15</div>
+            <div class="date">16</div>
+            <div class="date">17</div>
+            <div class="date">18</div>
+            <div class="date">19</div>
+            <div class="date">20</div>
+            <div class="date">21</div>
+            <div class="date">22</div>
+            <div class="date">23</div>
+            <div class="date">24</div>
+            <div class="date">25</div>
+            <div class="date">26</div>
+            <div class="date">27</div>
+            <div class="date">28</div>
+            <div class="date">29</div>
+            <div class="date">30</div>
+            <div class="date">31</div>
+            <div class="next">1</div>
+            <div class="next">2</div>
+            <div class="next">3</div>
+            <div class="next">4</div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+          <a class="btn btn-primary" href="travanj.html" role="button"
+            >Prethodni mjesec</a
+          >
+          <a class="btn btn-primary" href="lipanj.html" role="button"
+            >Sljedeći mjesec</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="Mišan-apartman.html" class="nav-link px-2 text-muted"
+              >Početna</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="kalendar.html" class="nav-link px-2 text-muted"
+              >Kalendar</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="cjenik.html" class="nav-link px-2 text-muted">Cjenik</a>
+          </li>
+          <li class="nav-item">
+            <a href="galerija.html" class="nav-link px-2 text-muted"
+              >Galerija</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="kontakt.html" class="nav-link px-2 text-muted">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a href="lokacija.html" class="nav-link px-2 text-muted"
+              >Lokacija</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">&copy; Villa Mišan</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
